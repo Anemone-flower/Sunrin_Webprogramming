@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>선호도 조사입니다.</h2>
+    <form>
+        성별 :
+        <input type="radio" name="gender" value="Male">남성
+        <input type="radio" name="gender" value="Female">여성
+        <br>
+        문항 1 :
+        <input type="radio" name="s1" value="Male">예
+        <input type="radio" name="s1" value="Female">아니오
+        <br>
+        과일 선택 :
+        <input type="checkbox" name="fruits" value="Apple" checked>사과
+        <input type="checkbox" name="fruits" value="Grape" >포도
+        <input type="checkbox" name="fruits" value="Orange" >오렌지
+    </form>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <h2>고객의 소리</h2>
+    <form>
+        아이디 : <input type="text" name="id"><br>
+        구매코드 : <input type="text" name="code"><br>
+        비밀번호 : <input type="password" name="ps" maxlength="4"><br>
+        제품평가 : 제품에 대한 의견을 작성하여주세요. <br>
+       <textarea cols="50" rows="5"></textarea>
+       <input type="submit" value="제출하기"> <input type="reset" value="초기화"> <br>
+
+    <div class="container">
+        <button onclick="toggleImg()"><img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVvc8sKp9aA6AVhFBt_wR3bgxIgekI9XFj_GXVRqse1Q&s"></button>
+    </div>
+        <script>
+        function toggleImg() {
+        document.getElementById("img").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Operation_Upshot-Knothole_-_Badger_001.jpg/800px-Operation_Upshot-Knothole_-_Badger_001.jpg";
+        }
+  </script>
+        
+
+    </form>
+</body>
+</html>
