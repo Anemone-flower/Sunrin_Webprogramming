@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoon's page</title>
+    <script language="javascript">
+        function answer(){
+        if(answername.a[0].checked==true || answername.a[1].checked==true || answername.a[2].checked==true || answername.a[3].checked==true){
+        alert("정답이 아닙니다");
+        return false;
+        }
+
+        alert("정답입니다");
+        quiz.submit();
+        }
+</script>
+
+
+
+
+    </script>
+</head>
+<body>
+<div style="background-color: lightyellow;width: 100%;">
+    <h1 style="color:black"><p style="text-align: center;">깜작 원신 퀴즈! </p></h1>
+</div>
+<div>
+    <form>
+       <p style="text-align: center;">다음은 원신에 등장하는 캐릭터
+        <span style=" font: italic bold 1.2em/1em Georgia; color: green;">정화의 하얀 풀 · 나히다</span> 의 스킬이다. <br>
+        나히다의 기본 스킬 <span style=" font: bold 1.1em/1em Georgia; color: green;">너른 헤아림</span> 관한 설명이다
+    이 중 옳지 않은 것을 고르시오.</p> <hr>
+
+    <p style="text-align: left;"> <span style=" font: italic bold 1.1em/1em Georgia; color: black;">자신의 근처에 초목의 업보를 시전해 풀 원소 범위 피해를 주고, 명중한 최대 8명의 적에게 스칸다 씨앗을 새긴다. <br>
+        홀드 시 다른 방식으로 발동한다.<br>
+        <br>
+        홀드<br>
+        조준 상태에 진입해 일정 범위 내의 일정한 수량의 적을 선택한다. 해당 상태에서 나히다의 경직 저항력이 증가한다.<br>
+        홀드가 종료될 때 선택한 적에게 풀 원소 피해를 주고 스칸다 씨앗을 새긴다.<br>
+        조준 상태는 최대 5초간 지속되며, 최대 8명의 적을 선택할 수 있다.<br>
+        <br>
+        스칸다 씨앗<br>
+        스칸다 씨앗 상태의 적은 일정 거리 내에서 서로 연결된다.<br>
+        스칸다 씨앗 상태의 적에게 원소 반응을 일으키거나, 해당 적이 풀 원핵(발화, 만개 포함)으로 가하는 피해를 받은 경우,<br> 나히다의 공격력과 원소 마스터리에 기반해 해당 적 및 연결된 모든 적에게 삼업의 정화를 발동하고, <span style=" font: italic bold 1em/1em Georgia; color: yellowgreen;">풀 원소 피해</span>를 준다.<br>
+        <br>짧은 시간 동안 삼업의 정화를 최대 1회 발동한다.</p>
+   
+        <br>
+    </form>
+    <form name="answername" action="10512 윤찬호 HTML 소개글.html">
+        <span style="font-weight: bold;">다음 보기 중 옳은 답안을 고르시오. : </span>  <br>
+        <p style="font-weight: bold;">1: 조준상태의 지속시간은 최대 5초가 아닌, 최대 5.5초이다.<br></p><input type="radio" name="a" value="1" required>
+        <p style="font-weight: bold;">2: 선택 가능한 적에는 "로데이아" 를 포함한다.<br></p> <input type="radio" name="a" value="2" required>
+        <p style="font-weight: bold;">3: 스칸다 씨앗의 "풀 원핵으로 가하는 피해" 에는 "닐루" 의 강화된 풀 원핵의 영향은 받지 않는다.<br></p><input type="radio" name="a" value="3" required>
+        <p style="font-weight: bold;">4: 나히다의 특성 "마음을 따르는 수행" 을 배운 후 나히다의 공격력과 원소 마스터리 뿐만 아니라, 원소 충전 효율 수치에도 기반한다.<br></p><input type="radio" name="a" value="4" required>
+        <p style="font-weight: bold;">5: 이 스킬의 특성 최대 레벨 시 가하는 "삼업의 정화" 피해의 수치는 공격력의 245.1%+원소 마스터리의 490.2% 이다.<br></p><input type="radio" name="a" value="5" required > <br>
+    <br>
+        <input type="button" name="선택" value="정답확인" onclick="answer()">
+        <p id="check"></p>
+ </script>
+    <br>
+    
+    <p style="text-align: right;"><input type="button" value="출처 페이지로 이동하기" name="submit" onclick="location.href='https://namu.wiki/w/%EB%82%98%ED%9E%88%EB%8B%A4'"></p>
+    </form>
+</div>
+
+</body>
+</html>
