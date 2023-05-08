@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p.thick{
+            border: thick solid green;
+            border-radius: 25px;
+        }
+
+        p.medium {
+            border: medium solid red;
+            border-radius: 25px;
+        }
+
+        p.thin{
+            border: 1px solid blue;
+            border-radius: 25px;
+        }
+
+        div{
+            border: 30px solid transparent;
+            width: 300px; height: 25px;
+            border-image: url(border.png) 30 30 round;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <p style="border-style: none;">none</p>
+    <p style="border-style: dotted;">dotted</p>
+    <p style="border-style: dashed;">dashed</p>
+    <p style="border-style: solid;">solid</p>
+    <p style="border-style: double;">double</p>
+    <p style="border-style: groove;">groove</p>
+    <p style="border-style: ridge;">ridge</p>
+    <p style="border-style: inset;">inset</p>
+    <p style="border-style: outset;">outset</p>
+
+    <p class="thick">경계선이 thick으로 설정되어있음</p>
+    <p class="medium">경계선이 medium으로 설정되어있음</p>
+    <p class="thin">경계선이 1px로 설정되어있음</p>
+
+    <div>
+        <strong>경?계 이미지?</strong>
+    </div>
+
+</body>
+</html>
