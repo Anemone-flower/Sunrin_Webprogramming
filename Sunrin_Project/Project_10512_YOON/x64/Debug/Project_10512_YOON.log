@@ -1,0 +1,3 @@
+﻿  Mainsorce.c
+C:\Users\윤석호\Desktop\Sunrin_Project\Project_10512_YOON\Mainsorce.c(224,10): warning C4101: 'start' :참조되지 않은 지역 변수입니다.
+  Project_10512_YOON.vcxproj -> C:\Users\윤석호\Desktop\Sunrin_Project\x64\Debug\Project_10512_YOON.exe
