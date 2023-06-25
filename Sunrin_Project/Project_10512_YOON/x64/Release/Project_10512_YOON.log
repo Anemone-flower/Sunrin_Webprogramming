@@ -1,0 +1,14 @@
+﻿  Mainsorce.c
+C:\Users\윤석호\Downloads\Sunrin_Project\Project_10512_YOON\Mainsorce.c(243,17): warning C4013: 'main'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\윤석호\Downloads\Sunrin_Project\Project_10512_YOON\Mainsorce.c(256,11): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\윤석호\Downloads\Sunrin_Project\Project_10512_YOON\Mainsorce.c(759,16): warning C4566: 유니버설 문자 이름 '\u6D67'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\윤석호\Downloads\Sunrin_Project\Project_10512_YOON\Mainsorce.c(807,11): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\윤석호\Downloads\Sunrin_Project\Project_10512_YOON\Mainsorce.c(897,11): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\윤석호\Downloads\Sunrin_Project\Project_10512_YOON\Mainsorce.c(1013,11): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\윤석호\Downloads\Sunrin_Project\Project_10512_YOON\Mainsorce.c(1036,37): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+  코드를 생성하고 있습니다.
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Users\윤석호\Downloads\Sunrin_Project\Project_10512_YOON\Mainsorce.c(803): warning C4716: 'weaponinfo': 값을 반환해야 합니다.
+  All 19 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Project_10512_YOON.vcxproj -> C:\Users\윤석호\Downloads\Sunrin_Project\x64\Release\Project_10512_YOON.exe
